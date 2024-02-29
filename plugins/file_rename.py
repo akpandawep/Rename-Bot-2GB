@@ -93,7 +93,7 @@ async def doc(bot, update):
         else:
             new_filename = new_filename_
     except:
-        await update.message.edit("⚠️ Something Went Wrong Can't Able To Set Prefix Or Suffix ☹️ \n\n**Contact My Creator** : @MadflixOfficials")
+        await update.message.edit("⚠️ Something Went Wrong Can't Able To Set Prefix Or Suffix ☹️ \n\n**Contact My Creator** : @PandaWep")
     
         
     file_path = f"downloads/{new_filename}"
@@ -174,14 +174,3 @@ async def doc(bot, update):
     await ms.delete() 
     os.remove(file_path) 
     if ph_path: os.remove(ph_path) 
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @JishuBotz
-# Developer @JishuDeveloper
