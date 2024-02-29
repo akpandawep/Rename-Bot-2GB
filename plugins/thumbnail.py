@@ -20,15 +20,3 @@ async def addthumbs(client, message):
     mkn = await message.reply_text("Please Wait ...")
     await jishubotz.set_thumbnail(message.from_user.id, file_id=message.photo.file_id)                
     await mkn.edit("**Thumbnail Saved Successfully ✅️**")
-
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @JishuBotz
-# Developer @JishuDeveloper
